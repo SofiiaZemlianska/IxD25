@@ -1,3 +1,24 @@
-h1{
-  color: green;
+.navigation {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav-item {
+    background-color: rgb(194, 194, 194);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 5px; 
+}
+.nav-item a {
+    color: black;
+    text-decoration: none;
+}
+.nav-item:hover {
+    background-color: rgb(148, 146, 148);
+    cursor: pointer;
+}
+.introduction {
+    margin-left: 220px; 
+    padding: 20px;
 }
