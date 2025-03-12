@@ -1,21 +1,50 @@
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    background-color: rgb(232, 190, 222);
+    color: rgb(56, 20, 56);
+}
 .navigation {
     width: 200px;
     position: fixed;
     left: 0;
 }
+table{
+    background-color: rgb(173, 132, 173);
+    width: 100%;
+}
+td {
+    text-align: left;
+    vertical-align: top;
+}
 .navigation-item {
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(105, 78, 128);
     padding: 15px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 5px; 
 }
 .navigation-item a {
-    color: black;
+    color: rgb(42, 38, 46);
     text-decoration: none;
 }
 .navigation-item:hover {
-    background-color: rgb(148, 146, 148);
+    background-color: rgb(82, 61, 92);
     cursor: pointer;
+}
+.compt-audit {
+    margin-left: 220px; 
+    padding: 20px;
+}
+.red {
+    background-color: rgb(232, 113, 97);
+    color: rgb(105, 26, 10);
+}
+.yellow {
+    background-color: rgb(237, 228, 150);
+    color: rgb(59, 66, 12);
+}
+.green {
+    background-color: rgb(107, 163, 81);
+    color: rgb(33, 64, 6);
 }
 .introduction {
     margin-left: 220px; 
